@@ -1,0 +1,65 @@
+   body {
+      font-family: system-ui, sans-serif;
+      padding: 2rem;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(to top, hsl(0, 0%, 0%), #ffffff);
+    }
+
+      nav {
+    background: rgba(0, 0, 0, 0.7); /* semi‑transparent black */
+    border-radius: 9999px; /* pill/oval shape */
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: flex-start; /* aligns items to the left */
+    width: fit-content; /* shrink to fit the links */
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.15s ease;
+  }
+
+  nav a:hover {
+    color: hwb(0 41% 59%); /* soft highlight on hover */
+  }
+
+     .centered-oval {
+    font-size: 3rem;                  /* make it bigger */
+    font-weight: bold;
+    color: white;                     /* text color */
+    background: rgba(0, 0, 0, 0.7);    /* black with 70% opacity */
+    padding: 1rem 2rem;                /* space inside the oval */
+    border-radius: 9999px;             /* full oval/pill shape */
+    position: center;             /* center text inside */
+    
+    /* Center this element in the viewport */
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+  }
+
+     .oval-button {
+      background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 50px; /* Makes it oval */
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+
+    .oval-button:hover {
+      background-color: hwb(0 41% 59%);
+    }
+
+    .oval-button {
+  margin-top: 25px; /* moves the button 50px down */
+}
